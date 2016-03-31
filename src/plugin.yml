@@ -1,0 +1,10 @@
+name: ShellEscape
+main: de.guntram.bukkit.shellescape.ShellEscape
+version: 0.1
+description: Allow shell commands to be run from minecraft
+commands:
+    shell:
+        description: Run a shell command.
+        usage: /shell <linux command>
+        permission: shell.runcommand
+        permission-message: You may not run shell commands.
